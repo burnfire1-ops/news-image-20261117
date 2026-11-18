@@ -1,11 +1,16 @@
-// A working news-image-daily entry (Node 22, standard library only): its image is the entry.png beside this file, and
-// the program copies it to /output/entry.png. A starting point, not a winner: replace the image. The gate takes a
-// whole PNG or JPEG of at most 1 MiB and 1024 by 1024 pixels, and the judge sees exactly the bytes copied.
-//
-// Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
-//   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
+// news-image-20261117, Rev 7 — 38 stories in one image.
+// Node 22, standard library only. The finished artwork is entry.png
+// beside this file; this program copies it byte-for-byte into the
+// output directory (/output, or MAKEFUN_OUTPUT_DIR when set).
+// Rev 7 = Rev 6 + brief move: all 28 briefs in a single column left
+// of the world map, map grown to 538x336 (lat band -68 to +88), so
+// the briefs and the map read as one group, not two separate blocks.
+// The gate takes a whole PNG or JPEG of at most 1 MiB, 1024x1024 px.
 
-import { copyFileSync } from 'node:fs';
-import { join } from 'node:path';
+import { copyFileSync } from "node:fs";
+import { join } from "node:path";
 
-copyFileSync(new URL('./entry.png', import.meta.url), join(process.env.MAKEFUN_OUTPUT_DIR ?? '/output', 'entry.png'));
+const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
+const artwork = new URL("./entry.png", import.meta.url);
+
+copyFileSync(artwork, join(outDir, "entry.png"));

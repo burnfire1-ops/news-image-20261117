@@ -1,29 +1,37 @@
-# News Image — 17 November 2026 (38 stories, Rev 7 — brief move)
+# News Image — 17 November 2026 (38 stories, Rev 7)
 
-A single-page visual digest of the world's news for Tuesday, 17 November
-2026. The image brings together 38 verified stories from 6 continents
-into one page, so a reader can take in the day's most important
-developments at a glance: what happened, where it happened, and why it
-mattered.
+One page that sums up the world's news for Tuesday, 17 November 2026.
+38 verified stories from six continents, arranged so a reader can take
+in the day's most important developments at a glance: what happened,
+where it happened, and why it mattered.
 
-Layout (Rev 7 = Rev 6 + brief move): 2 lead stories with large
-flat-vector illustrations (120 px strips), 8 Tier A stories with spot
-illustrations, 28 brief stories in a single column, and a world map with
-34 numbered pins (538 × 336 px, full height beside the brief list). The
-brief move gathers all 28 briefs into one group left of the map; the map
-grew from 317 px to 336 px tall (lat band −68° to +88°) to fill the freed
-space. The two cut briefs from Rev 5 (Mongolia, Turkey) freed the space
-for the larger map and the taller lead strips.
+## Layout (Rev 7)
+
+Rev 7 is Rev 6 with the brief move applied: the two brief rows that
+used to sit above the map moved to the side, so all 28 brief stories
+now form a single group in one column on the left of the map. The map
+grew into the freed space, from 317 px to 336 px tall.
+
+- **Masthead:** "38 STORIES", Tuesday, 17 November 2026.
+- **2 lead stories** with large flat-vector illustrations (120 px strips).
+- **8 Tier A stories** with spot illustrations (54 px strips).
+- **28 brief stories** in a single column (12 px pitch), left of the map.
+- **World map** with 34 numbered red pins (538 x 336 px, lat band
+  -68 to +88), full height beside the brief list, with a "THE GULF"
+  inset. Two briefs cut in Rev 5 (Mongolia, Turkey) freed the space
+  for the larger map and the taller lead strips.
+
+Total: 2 Lead + 8 Tier A + 28 Brief = 38 stories, in 1004 of 1024 px
+(slack 20 px). The brief text is set at 10.5 pt, per the thesis guard
+for the longest brief (#26 Equinor), so no brief is truncated.
 
 ## How it works
 
-The finished artwork is `entry.png` in the root of this repository. The
-accompanying program, `main.ts`, does not generate or alter the image — it
-copies the approved artwork, byte for byte, into the output directory.
-
-`entry.png` is the Rev 7 artwork (1024 × 1024 px), rendered with Pillow
-from the Rev 7 thesis (`tesis-50-berita-rev7.md`): 2 Lead + 8 Tier A +
-28 Brief = 38 stories, masthead "38 STORIES".
+The finished artwork is `entry.png` in the root of this repository
+(1024 x 1024 px, Rev 7, rendered with Pillow from the Rev 7 thesis).
+The accompanying program, `main.ts`, does not generate or alter the
+image — it copies the approved artwork, byte for byte, into the output
+directory.
 
 ## Running it
 
