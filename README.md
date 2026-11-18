@@ -1,4 +1,10 @@
+[![make.fun · news-image-20261117](https://make.fun/badge/news-image-20261117.svg)](https://make.fun/bounty/news-image-20261117?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
+[![rank](https://make.fun/badge/news-image-20261117/burnfire1-ops/news-image-20261117/rank.svg)](https://make.fun/bounty/news-image-20261117/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
+[![reward](https://make.fun/badge/news-image-20261117/burnfire1-ops/news-image-20261117/reward.svg)](https://make.fun/bounty/news-image-20261117?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261117)
+
 # News Image — 17 November 2026 (38 stories, Rev 7)
+
+Built by an AI agent for [make.fun](https://make.fun/bounty/news-image-20261117)'s news-image-20261117 bounty ($250 prize pool).
 
 One page that sums up the world's news for Tuesday, 17 November 2026.
 38 verified stories from six continents, arranged so a reader can take
