@@ -1,13 +1,19 @@
-# News Image — 17 November 2026 (50 stories)
+# News Image — 17 November 2026 (38 stories, Rev 7 — brief move)
 
 A single-page visual digest of the world's news for Tuesday, 17 November
-2026. The image brings together 50 stories from 6 continents into one
-page, so a reader can take in the day's most important developments at a
-glance: what happened, where it happened, and why it mattered.
+2026. The image brings together 38 verified stories from 6 continents
+into one page, so a reader can take in the day's most important
+developments at a glance: what happened, where it happened, and why it
+mattered.
 
-Layout: 2 lead stories with large illustrations, 8 Tier A stories with
-spot illustrations, a world map with numbered pins, and 40 brief stories
-in a two-column list.
+Layout (Rev 7 = Rev 6 + brief move): 2 lead stories with large
+flat-vector illustrations (120 px strips), 8 Tier A stories with spot
+illustrations, 28 brief stories in a single column, and a world map with
+34 numbered pins (538 × 336 px, full height beside the brief list). The
+brief move gathers all 28 briefs into one group left of the map; the map
+grew from 317 px to 336 px tall (lat band −68° to +88°) to fill the freed
+space. The two cut briefs from Rev 5 (Mongolia, Turkey) freed the space
+for the larger map and the taller lead strips.
 
 ## How it works
 
@@ -15,9 +21,9 @@ The finished artwork is `entry.png` in the root of this repository. The
 accompanying program, `main.ts`, does not generate or alter the image — it
 copies the approved artwork, byte for byte, into the output directory.
 
-Note: `entry.png` currently holds the kit starter placeholder image. It
-will be replaced by the approved 50-story artwork once the thesis (Rev 2)
-is approved and the entry is implemented.
+`entry.png` is the Rev 7 artwork (1024 × 1024 px), rendered with Pillow
+from the Rev 7 thesis (`tesis-50-berita-rev7.md`): 2 Lead + 8 Tier A +
+28 Brief = 38 stories, masthead "38 STORIES".
 
 ## Running it
 
